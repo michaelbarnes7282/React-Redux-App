@@ -1,24 +1,24 @@
 const initialState = {
-    pokeImg: '',
+    poke: '',
     isFetching: false,
     error: '',
 };
 
 export const pokeCardReducer = (state = initialState, action) => {
     switch (action.type) {
-        case 'FETCH_IMG_START':
+        case 'FETCH_CARD_START':
             return {
                 ...state,
                 isFetching: true
             };
-        case 'FETCH_IMG_SUCCESS':
+        case 'FETCH_CARD_SUCCESS':
             return {
                 ...state,
                 isFetching: false,
                 pokemon: action.payload,
                 error: ''
             };
-        case 'FETCH_IMG_FAILURE':
+        case 'FETCH_CARD_FAILURE':
             return {
                 ...state,
                 isFetching: false,

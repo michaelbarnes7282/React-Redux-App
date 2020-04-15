@@ -5,7 +5,8 @@ import PokeCards from './components/PokeCards'
 function App() {
   return (
     <div className="App">
-      <PokeCards />
+      <h1>Kanto Pokedex</h1>     
+        <PokeCards />
     </div>
   );
 }

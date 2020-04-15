@@ -8,7 +8,7 @@ body {
   flex-wrap: wrap;
 }
 .card {
-  width: 500px;
+  width: 300px;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -17,6 +17,8 @@ body {
   border-radius: 5px;
   box-shadow: 0 1px 6px -2px #000;
   background-color: #FFF;
-  margin: 0 30px;
-  margin-bottom: 30px;
+  margin: 30px;
+}
+.card img {
+  margin-right: 20px;
 }
